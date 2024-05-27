@@ -1,0 +1,28 @@
+.container {
+  background-image: url("https://media.geeksforgeeks.org/wp-content/uploads/20210302161254/imgonlinecomuaCompressToSizeOmNATjUMFKw-300x300.jpg");
+  width: 20rem;
+  height: 20rem;
+  background-repeat: no-repeat;
+}
+
+.hour {
+  width: 5rem;
+  height: 0.7rem;
+  background-color: black;
+  border-radius: 1rem;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 7rem;
+  left: 7.5rem;
+}
+
+.minute {
+  width: 7rem;
+  height: 0.5rem;
+  background-color: black;
+  border-radius: 1rem;
+  transform: rotate(0deg);
+  position: absolute;
+  top: 9.5rem;
+  left: 10rem;
+}

@@ -1,0 +1,39 @@
+#div1 {
+  background-color: green;
+  position: relative;
+  top: 80%;
+  left: 50%;
+}
+
+#div2 {
+  background-color: red;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+}
+
+#div3 {
+  background-color: blueviolet;
+  position: fixed;
+  top: 80%;
+  left: 70%;
+}
+
+#div4 {
+  position: sticky;
+  background-color: aqua;
+  top: 10%;
+  left: 50%;
+}
+
+div {
+  height: 10rem;
+  width: 10rem;
+  border: 2px solid black;
+}
+
+#parent {
+  height: 50rem;
+  width: 50rem;
+  border: 2px solid blue;
+}

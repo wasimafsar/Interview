@@ -1,0 +1,40 @@
+/* div {
+  width: 50rem;
+  height: 2rem;
+  border: 2px solid black;
+}
+
+div:hover {
+  background-color: green;
+  animation: 
+  width: 100rem;
+}
+
+@keyframes move {
+  0% {
+    width: 1rem;
+  }
+  100% {
+    width: 50rem;
+  }
+} */
+
+#outer {
+  width: 50rem;
+  height: 2rem;
+  border: 2px solid black;
+}
+
+#inner {
+  width: 1rem;
+  height: 2rem;
+  background-color: green;
+}
+
+#inner:hover {
+  width: 30rem;
+  transition-duration: 3s;
+  transition-property: all;
+  transition-timing-function: ease-in;
+  transition-delay: 2s;
+}

@@ -1,0 +1,29 @@
+@use "partials"; // this way we can import another scss file in to a new scss file
+
+body {
+  background-color: partials.$base-color;
+}
+
+// partials are created with "_" prefix in file name . When they are imported in another scss file we can reuse the variable from previous scss file
+// loaders are needed to convert non js files like css, scss into system
+// Define a mixin
+@mixin button-styles {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+
+// Use the mixin in a selector
+.button {
+  @include button-styles;
+}
+
+// Use the mixin in another selector
+.btn-primary {
+  @include button-styles;
+  background-color: #e74c3c;
+}
+
+// @mixin is like class that u can reuse

@@ -1,0 +1,37 @@
+/* use unsplash to get free high quality images with no copyright issues */
+/* cover is mostly used,
+fits perfect */
+#id1 {
+  width: 50rem;
+  height: 50rem;
+  border: 2px solid blue;
+  background-image: url("travel.jpg");
+  background-size: cover;
+}
+
+/* contain used but gap fills with repeat */
+#id2 {
+  width: 50rem;
+  height: 50rem;
+  border: 2px solid blue;
+  background-image: url("travel.jpg");
+  background-size: contain;
+}
+/* gap filled by repaet is stopped and u see empty space */
+#id3 {
+  width: 50rem;
+  height: 50rem;
+  border: 2px solid blue;
+  background-image: url("travel.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* default stretched image */
+#id4 {
+  width: 50rem;
+  height: 50rem;
+  border: 2px solid blue;
+  background-image: url("travel.jpg");
+  background-size: auto;
+}
